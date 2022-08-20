@@ -288,3 +288,89 @@ header div.container div.right ul li:last-child a::before {
     width: 100%;
     height: 475px;
 }
+
+/* About section  */
+#about {
+    width: 100%;
+    padding: 100px 0px 40px;
+}
+
+#about div.container {
+    display: flex;
+}
+
+#about div.container div.left {
+    width: 50%;
+}
+
+#about div.container div.left div.image {
+    position: relative;
+    display: inline-block;
+    width: 90%;
+}
+
+#about div.container div.left div.image>img {
+    width: 100%;
+    height: 425px;
+}
+
+#about div.container div.left div.image div.control {
+    position: absolute;
+    bottom: 4px;
+    background-color: #faf9f7;
+    padding: 20px;
+    width: 150px;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    opacity: 0.5;
+    transition: opacity 0.4s ease-in;
+}
+#about div.container div.left div.image div.control:hover{
+    opacity: 1;
+}
+#about div.container div.left div.image div.control a {
+    display: inline-block;
+    width: 30px;
+}
+
+#about div.container div.left div.image div.control a img {
+    width: 100%;
+}
+
+#about div.container div.right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#about div.container div.right div.content h2 {
+    position: relative;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+#about div.container div.right div.content h2::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 10%;
+    left: 0;
+    bottom: -5px;
+    background: var(--Blue);
+    display: block;
+    transition: width 0.5s ease-in;
+}
+
+#about div.container div.right div.content p {
+    padding-right: 95px;
+    margin-bottom: 40px;
+}
+
+#about div.container div.right div.content a.button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: var(--Blue);
+    color: #fff;
+    font-size: 16px;
+}
