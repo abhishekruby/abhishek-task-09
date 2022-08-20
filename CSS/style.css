@@ -49,7 +49,11 @@ select {
 }
 
 a {
-    color: #000;
+    color: var(--Gray);
+}
+
+a:hover {
+    color: var(--Black);
 }
 
 .thumb {
@@ -66,7 +70,7 @@ p {
     font-size: 16px;
     font-family: "Outfit", Arial;
     font-weight: 500;
-    color: #000;
+    color: var(--Gray);
 }
 
 .hidden {
@@ -132,4 +136,67 @@ br.clear {
 #home {
     height: 100vh;
     width: 100%;
+}
+
+/* Header style  */
+header div.container {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header div.container div.left {
+    width: 40%;
+}
+
+header div.container div.left h1 a {
+    display: inline-block;
+    width: 140px;
+}
+
+header div.container div.left h1 a img {
+    width: 100%;
+}
+
+header div.container div.right {
+    width: 60%;
+}
+
+header div.container div.right ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header div.container div.right ul li a {
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+header div.container div.right ul li a::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 0%;
+    left: 0;
+    bottom: -5px;
+    background: var(--Blue);
+    display: block;
+    transition: width 0.5s ease-in;
+}
+
+header div.container div.right ul li a:hover::before {
+    width: 50%;
+}
+
+header div.container div.right ul li:last-child a {
+    color: var(--Blue);
+    padding: 10px 20px;
+    border: 2px solid;
+    letter-spacing: 1px;
+}
+
+header div.container div.right ul li:last-child a::before {
+    display: none;
 }
