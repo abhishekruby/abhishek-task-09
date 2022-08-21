@@ -531,7 +531,7 @@ article div.container div.contents div.content {
 article div.container div.contents div.content a {
     display: block;
     width: 13%;
-    margin-left: 15px;
+    margin-left: 40px;
     position: relative;
     z-index: 0;
 }
@@ -546,7 +546,7 @@ article div.container div.contents div.content a::before {
     position: absolute;
     height: 80px;
     width: 90px;
-    left: -20px;
+    left: -25px;
     bottom: -18px;
     background: #fff;
     display: block;
