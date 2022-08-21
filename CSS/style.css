@@ -318,20 +318,22 @@ header div.container div.right ul li:last-child a::before {
     position: absolute;
     bottom: 4px;
     background-color: #faf9f7;
-    padding: 20px;
-    width: 150px;
+    padding: 20px 40px;
+    width: 175px;
     height: 80px;
     display: flex;
     justify-content: space-evenly;
     opacity: 0.5;
     transition: opacity 0.4s ease-in;
 }
-#about div.container div.left div.image div.control:hover{
+
+#about div.container div.left div.image div.control:hover {
     opacity: 1;
 }
+
 #about div.container div.left div.image div.control a {
     display: inline-block;
-    width: 30px;
+    width: 35px;
 }
 
 #about div.container div.left div.image div.control a img {
@@ -350,6 +352,7 @@ header div.container div.right ul li:last-child a::before {
     font-size: 30px;
     margin-bottom: 40px;
 }
+
 #about div.container div.right div.content h2::after {
     content: "";
     position: absolute;
@@ -373,4 +376,117 @@ header div.container div.right ul li:last-child a::before {
     background: var(--Blue);
     color: #fff;
     font-size: 16px;
+}
+
+/* Work section  */
+#works {
+    padding: 30px 0px;
+    margin: 10px 0px;
+}
+
+#works section.wrapper {
+    margin: 0;
+    margin-left: 8%;
+    width: 100%;
+}
+
+#works div.container div.heading {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#works div.container div.heading h2 {
+    position: relative;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#works div.container div.heading h2::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 20%;
+    left: 0;
+    bottom: -4px;
+    background: var(--Blue);
+    display: block;
+}
+
+#works div.container div.heading div.arrows a {
+    display: inline-block;
+    width: 32px;
+    margin-right: 10px;
+}
+
+#works div.container div.heading div.arrows a img {
+    width: 100%;
+}
+
+#works div.container div.work ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#works div.container div.work ul li {
+    position: relative;
+    width: 23%;
+}
+
+#works div.container div.work ul li>a {
+    display: inline-block;
+}
+
+#works div.container div.work ul li>a>img {
+    width: 100%;
+    overflow: hidden;
+}
+
+#works div.container div.work ul li div.location {
+    position: absolute;
+    bottom: 4px;
+    height: 75px;
+    width: 85%;
+    background: #f8f4f2;
+    opacity: 0.8;
+    padding: 15px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#works div.container div.work ul li div.location:hover {
+    opacity: 1;
+}
+
+#works div.container div.work ul li div.location a img {
+    margin-right: 5px;
+    width: 5%;
+}
+
+#works div.container div.work ul li div.zoom {
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    height: 340px;
+    width: 90%;
+    background: #f8f4f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#works div.container div.work ul li div.zoom:hover {
+    opacity: 0.8;
+}
+
+#works div.container div.work ul li div.zoom a {
+    display: inline-block;
+    width: 15%;
+}
+
+#works div.container div.work ul li div.zoom a img {
+    width: 100%;
 }
