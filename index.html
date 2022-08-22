@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/style.css" />
+    <script src="JS/index.js"></script>
     <title>HK Buliding</title>
 </head>
 
@@ -234,15 +235,16 @@
         </section><!-- section wrapper end -->
     </section><!-- section recommends end -->
 
+    <!-- Contact -->
     <section class="contact">
         <section class="wrapper">
             <div class="container">
                 <div class="left">
                     <div class="content">
                         <h2>What Do You <br>Want To Ask</h2>
-                        <p>Mahal Indl Estate, Mahakali Caves Road, Opp Athura Centre, Andheri(west)</p>
-                        <p>+91 967 909 8799 hkbuilding</p>
-                        <p> hkbuilding</p>
+                        <p class="address">Mahal Indl Estate, Mahakali Caves Road, Opp Athura Centre, Andheri(west)</p>
+                        <p>+91 967 909 8799</p>
+                        <p>hkbuildings@gmail.com</p>
                         <ul class="social">
                             <li><a href="#"><img src="Assets/Icon awesome-facebook-f.svg" alt="Facebook" /></a></li>
                             <li><a href="#"><img src="Assets/Icon awesome-twitter.svg" alt="twitter" /></a></li>
@@ -254,17 +256,21 @@
                     <form action="#">
                         <h4>Ask Me</h4>
                         <div class="input-container">
-                            <input type="text" id="name" class="text-input" autocomplete="off"
-                                placeholder="Name" required />
+                            <input type="text" id="name" class="text-input" autocomplete="off" placeholder="Name"
+                                required />
                             <label class="label" for="name">Name</label>
-                            <input type="email" id="email" class="text-input" autocomplete="off"
-                                placeholder="Email Id" required />
-                            <label class="label" for="email">Email Id</label>
-                            <textarea id="message" class="text-input" autocomplete="off"
-                                placeholder="Message" required ></textarea>
-                            <label class="label" for="message">Message</label>
-                            <button type="submit">Submit</button>
                         </div>
+                        <div class="input-container">
+                            <input type="email" id="email" class="text-input" autocomplete="off" placeholder="Email Id"
+                                required />
+                            <label class="label" for="email">Email Id</label>
+                        </div>
+                        <div class="input-container textarea">
+                            <textarea id="message" class="text-input" autocomplete="off" placeholder="Message"
+                                required></textarea>
+                            <label class="label " for="message">Message</label>
+                        </div>
+                        <button type="submit">SEND</button>
                     </form>
                 </div>
             </div>
