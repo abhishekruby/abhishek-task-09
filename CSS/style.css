@@ -885,4 +885,77 @@ section.contact div.container div.right form button {
     height: 65px;
     color: #fff;
     font-size: 20px;
+    cursor: pointer;
+}
+
+/* Help section */
+#help {}
+
+#help section.wrapper {}
+
+#help div.container {
+    display: flex;
+}
+
+#help div.container div.left {
+    width: 50%;
+}
+
+#help div.container div.left h2 {}
+
+#help div.container div.left div.img {
+    display: inline-block;
+    position: relative;
+}
+
+#help div.container div.left div.img>img {
+    width: 100%;
+    height: 100%;
+}
+
+#help div.container div.left div.img>div.name {
+    position: absolute;
+    bottom: 0;
+    background: #f3f1ee;
+}
+
+#help div.container div.left div.img>div.name a {
+    display: inline-block;
+}
+
+#help div.container div.left div.img>div.name>a>img {
+    width: 100%;
+    height: 100%;
+}
+
+#help div.container div.right {
+    width: 50%;
+
+}
+
+#help div.container div.right div.contents_And_Images {
+    width: 100%;
+}
+
+#help div.container div.right div.contents_And_Images div.content {
+    width: 80%;
+}
+
+#help div.container div.right div.contents_And_Images div.content>a {
+    display: inline-block;
+}
+
+#help div.container div.right div.contents_And_Images div.content>a>img {
+    width: 100%;
+    height: 100%;
+}
+
+#help div.container div.right div.contents_And_Images div.img {
+    width: 20%;
+    display: inline-block;
+}
+
+#help div.container div.right div.contents_And_Images div.img>img {
+    width: 100%;
+    height: 100%;
 }
