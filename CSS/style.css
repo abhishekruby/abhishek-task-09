@@ -586,8 +586,6 @@ article div.container div.contents div.content p {
     width: 92%;
 }
 
-#recommend_Section div.container {}
-
 #recommend_Section div.container div.heading {
     width: 90%;
     display: flex;
@@ -611,8 +609,6 @@ article div.container div.contents div.content p {
     background: var(--Blue);
     display: block;
 }
-
-#recommend_Section div.container div.heading div.arrows {}
 
 #recommend_Section div.container div.heading div.arrows a {
     display: inline-block;
@@ -639,8 +635,6 @@ article div.container div.contents div.content p {
 #recommend_Section div.container div.recommends div.recommends_Content ul li {
     margin-bottom: 20px;
 }
-
-#recommend_Section div.container div.recommends div.recommends_Content ul li:nth-child(2) {}
 
 #recommend_Section div.container div.recommends div.recommends_Content ul li:nth-child(2)>a {
     position: relative;
@@ -718,8 +712,6 @@ section.contact {
     background: hsl(237, 29%, 27%);
 }
 
-section.contact section.wrapper {}
-
 section.contact div.container {
     display: flex;
     padding: 50px 0px;
@@ -783,8 +775,6 @@ section.contact div.container div.left div.content ul {
     display: flex;
     justify-content: space-between;
 }
-
-section.contact div.container div.left div.content ul li {}
 
 section.contact div.container div.left div.content ul li a {
     display: inline-block;
@@ -889,23 +879,46 @@ section.contact div.container div.right form button {
 }
 
 /* Help section */
-#help {}
-
-#help section.wrapper {}
+#help {
+    padding: 40px 0px;
+}
 
 #help div.container {
     display: flex;
 }
 
 #help div.container div.left {
-    width: 50%;
+    width: 40%;
 }
 
-#help div.container div.left h2 {}
+#help div.container div.left h2 {
+    font-weight: 500;
+    font-size: 34px;
+    position: relative;
+}
+
+#help div.container div.left h2::before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 11%;
+    left: 0;
+    bottom: -8px;
+    background: var(--Blue);
+    display: block;
+}
+
+#help div.container div.left h2>span {
+    font-weight: 500;
+    font-size: 34px;
+    color: var(--Blue);
+}
 
 #help div.container div.left div.img {
+    width: 90%;
     display: inline-block;
     position: relative;
+    margin-top: 60px;
 }
 
 #help div.container div.left div.img>img {
@@ -915,44 +928,70 @@ section.contact div.container div.right form button {
 
 #help div.container div.left div.img>div.name {
     position: absolute;
-    bottom: 0;
+    bottom: 4px;
     background: #f3f1ee;
 }
 
-#help div.container div.left div.img>div.name a {
+#help div.container div.left div.img>div.name>a {
     display: inline-block;
+    width: 130px;
+    padding: 20px 22px;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--Blue);
 }
 
 #help div.container div.left div.img>div.name>a>img {
-    width: 100%;
+    width: 18%;
     height: 100%;
 }
 
 #help div.container div.right {
-    width: 50%;
-
+    width: 60%;
+    padding: 35px 0px 0px 40px;
 }
 
 #help div.container div.right div.contents_And_Images {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
+    height: 100px;
+    margin-top: 40px;
 }
 
 #help div.container div.right div.contents_And_Images div.content {
-    width: 80%;
+    width: 70%;
+}
+
+#help div.container div.right div.contents_And_Images div.content>p {
+    margin-top: 8px;
+    font-size: 15px;
 }
 
 #help div.container div.right div.contents_And_Images div.content>a {
     display: inline-block;
+    width: 120px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#help div.container div.right div.contents_And_Images div.content>a:hover {
+    color: var(--Blue);
 }
 
 #help div.container div.right div.contents_And_Images div.content>a>img {
-    width: 100%;
+    width: 15%;
     height: 100%;
 }
 
 #help div.container div.right div.contents_And_Images div.img {
     width: 20%;
     display: inline-block;
+    cursor: pointer;
+}
+
+#help div.container div.right div.contents_And_Images div.img:hover {
+    border: 4px solid var(--Blue);
 }
 
 #help div.container div.right div.contents_And_Images div.img>img {
