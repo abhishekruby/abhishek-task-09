@@ -711,3 +711,20 @@ article div.container div.contents div.content p {
 #recommend_Section div.container div.recommends div.recommends_Image ul li div.arrow a img {
     width: 100%;
 }
+
+/* Contact section  */
+section.contact{
+    
+}
+section.contact section.wrapper{
+
+}
+section.contact div.container{
+display: flex;
+}
+section.contact div.container div.left{
+
+}
+section.contact div.container div.right{
+
+}
