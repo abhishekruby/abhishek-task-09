@@ -1,0 +1,21 @@
+@media all and (max-width: 1380px){
+    #spotlight div.container div.left div.counts div.content {
+        position: absolute;
+        bottom: -342px;
+        height: 330px;
+        width: 485px;
+        padding: 25px 44px 25px;
+        background-color: #faf9f7;
+    }
+    #spotlight div.container div.left div.counts div.content h2 {
+        font-weight: 600;
+        font-size: 30px;
+        margin: 15px 0px;
+        padding-right: 40px;
+    }
+    #spotlight div.container div.left div.counts div.content p {
+        font-size: 15px;
+        margin-bottom: 30px;
+        padding-right: 10px;
+    }
+}

@@ -422,7 +422,7 @@ header div.container div.right ul li:last-child a::before {
 
 #works div.container div.heading div.arrows a {
     display: inline-block;
-    width: 32px;
+    width: 35px;
     margin-right: 10px;
 }
 
@@ -612,7 +612,7 @@ article div.container div.contents div.content p {
 
 #recommend_Section div.container div.heading div.arrows a {
     display: inline-block;
-    width: 32px;
+    width: 40px;
     margin-right: 10px;
 }
 
