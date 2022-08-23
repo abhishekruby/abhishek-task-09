@@ -463,3 +463,101 @@
         padding: 45px 0px 0px 0px;
     }
 }
+
+@media all and (max-width: 768px){
+    header div.container div.right ul li a {
+        position: relative;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    #spotlight div.container div.right div.image div.content h2 {
+        font-weight: 600;
+        font-size: 20px;
+        margin: 10px 0px;
+        padding-right: 40px;
+    }
+    #spotlight div.container div.right div.image div.content p {
+        font-size: 8px;
+        font-weight: 500;
+        margin-bottom: 16px;
+        padding-right: 10px;
+    }
+    #spotlight div.container div.right div.image div.content {
+        position: absolute;
+        top: 29%;
+        left: -45%;
+        height: 70%;
+        width: 65%;
+        padding: 30px 25px 0px;
+        text-align: left;
+        background-color: #faf9f7;
+    }
+    #about div.container div.left div.image div.control {
+        position: absolute;
+        bottom: 0px;
+        background-color: #faf9f7;
+        padding: 12px 24px;
+        width: 160px;
+        height: 55px;
+        display: flex;
+        justify-content: space-evenly;
+        opacity: 0.5;
+        transition: opacity 0.4s ease-in;
+    }
+    #about div.container div.left div.image div.control a {
+        display: inline-block;
+        width: 30px;
+    }
+    #works div.container div.work ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #about div.container div.right div.content a.button {
+        margin-top: 20px;
+        padding: 12px 20px;
+        background: var(--Blue);
+        color: #fff;
+        font-size: 12px;
+    }
+    #about div.container div.right div.content p {
+        padding-right: 0px;
+        margin-bottom: 14px;
+        font-size: 12px;
+    }
+    #works div.container div.heading {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+    article div.container div.contents div.content {
+        width: 40%;
+        margin-top: 50px;
+    }
+    #help div.container div.left h2 {
+        font-weight: 500;
+        font-size: 28px;
+        position: relative;
+        padding-right: 40%;
+    }
+    footer div.container div.top {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    footer div.container div.top div.left{
+        width: 40%;
+    }
+    footer div.container div.top div.middle{
+        width: 40%;
+        justify-content: space-between;
+    }
+
+    footer div.container div.top div.right{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 640px){
+}
