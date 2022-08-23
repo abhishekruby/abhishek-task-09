@@ -228,7 +228,6 @@ header div.container div.right ul li:last-child a::before {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    position: relative;
 }
 
 #spotlight div.container div.left div.counts div.count {
@@ -242,29 +241,34 @@ header div.container div.right ul li:last-child a::before {
     font-family: 'Antonio';
 }
 
-#spotlight div.container div.left div.counts div.content {
+#spotlight div.container div.right div.image {
+    position: relative;
+}
+
+#spotlight div.container div.right div.image div.content {
     position: absolute;
-    bottom: -407px;
-    height: 380px;
-    width: 485px;
+    top: 161px;
+    left: -314px;
+    height: 70%;
+    width: 60%;
     padding: 25px 44px 25px;
     background-color: #faf9f7;
 }
 
-#spotlight div.container div.left div.counts div.content h2 {
+#spotlight div.container div.right div.image div.content h2 {
     font-weight: 600;
     font-size: 35px;
     margin: 15px 0px;
     padding-right: 40px;
 }
 
-#spotlight div.container div.left div.counts div.content p {
+#spotlight div.container div.right div.image div.content p {
     font-size: 15px;
     margin-bottom: 45px;
     padding-right: 10px;
 }
 
-#spotlight div.container div.left div.counts div.content a.button {
+#spotlight div.container div.right div.image div.content a.button {
     margin-top: 20px;
     padding: 12px 20px;
     background: var(--Blue);
@@ -480,7 +484,7 @@ header div.container div.right ul li:last-child a::before {
     position: absolute;
     top: 20px;
     left: 13px;
-    height: 340px;
+    height: 90%;
     width: 90%;
     background: #f8f4f2;
     display: flex;
@@ -767,9 +771,11 @@ section.contact div.container div.left div.content p {
 
 section.contact div.container div.left div.content ul {
     margin-top: 15px;
-    padding: 20px 140px 20px 0px;
     display: flex;
-    justify-content: space-between;
+}
+
+section.contact div.container div.left div.content ul li {
+    margin-right: 30px;
 }
 
 section.contact div.container div.left div.content ul li a {
