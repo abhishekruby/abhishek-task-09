@@ -1006,8 +1006,6 @@ footer {
     padding: 50px 0px 0px;
 }
 
-footer div.container {}
-
 footer div.container div.top {
     display: flex;
     border-bottom: 1px solid var(--Gray);
@@ -1020,8 +1018,6 @@ footer div.container div.top {
 footer div.container div.top div.left {
     width: 40%;
 }
-
-footer div.container div.top div.left h1 {}
 
 footer div.container div.top div.left h1 a {
     display: inline-block;
@@ -1039,8 +1035,6 @@ footer div.container div.top div.middle {
     width: 40%;
     margin-bottom: 10px;
 }
-
-footer div.container div.top div.middle ul {}
 
 footer div.container div.top div.middle ul li {
     margin: 20px 0px;
