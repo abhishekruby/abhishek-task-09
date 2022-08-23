@@ -279,8 +279,6 @@ header div.container div.right ul li:last-child a::before {
 #spotlight div.container div.right {
     width: 70%;
     height: calc(100vh - 80px);
-    display: flex;
-    justify-content: space-between;
 }
 
 #spotlight div.container div.right div.image {

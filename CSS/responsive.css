@@ -164,4 +164,55 @@
     header div.container div.right {
         width: 75%;
     }
+    #spotlight div.container {
+        height: calc(100vh - 80px);
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #spotlight div.container div.left {
+        width: 100%;
+        padding: 10px 0px;
+    }
+    #spotlight div.container div.right {
+        width: 100%;
+        height: calc(100vh - 80px);
+        margin: 0 auto;
+    }
+    #spotlight div.container div.right div.image {
+        display: inline-block;
+        width: 50%;
+    }
+    #spotlight div.container div.right {
+        width: 100%;
+        height: auto;
+       text-align: center;
+    }
+    #spotlight div.container div.right div.image div.content {
+        position: absolute;
+        top: 30%;
+        left: -314px;
+        height: 70%;
+        width: 67%;
+        padding: 15px 20px 0px;
+        text-align: left;
+        background-color: #faf9f7;
+    }
+    #spotlight div.container div.right div.image div.content h2 {
+        font-weight: 600;
+        font-size: 20px;
+        margin: 10px 0px;
+        padding-right: 40px;
+    }
+    #spotlight div.container div.right div.image div.content p {
+        font-size: 12px;
+        margin-bottom: 15px;
+        padding-right: 10px;
+    }
+    #spotlight div.container div.right div.image div.content a.button {
+        margin-top: 20px;
+        padding: 10px 16px;
+        background: var(--Blue);
+        color: #fff;
+        font-size: 12px;
+    }
 }
